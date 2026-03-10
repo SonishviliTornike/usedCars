@@ -11,7 +11,7 @@
     </header>
     <nav>
         <ul>
-            <li><a href="index.php">Home page</a></li>        
+            <li><a href="/car/home">Home page</a></li>        
         </ul>
     </nav>
     <main>
@@ -19,7 +19,7 @@
     </main>
 
     <footer>
-        &copy <?php ?>
+        <p>&copy Tornike's used cars web page copyright <?= date('Y'); ?> &amp; Author Tornike Sonishvili &amp; Email: sonishvili.tornike@gmail.com</p>
     </footer>
 
 </body>

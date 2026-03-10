@@ -1,2 +1,2 @@
 
-<p>Welcome to Used Cars site</p>
+<p>Welcome to Used Cars universe</p>
