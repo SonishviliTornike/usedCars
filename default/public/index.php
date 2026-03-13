@@ -1,13 +1,18 @@
 <?php
 
+require_once __DIR__ . '/../src/Config/DatabaseConfig.php';
+
+require_once __DIR__ . '/../src/Core/DatabaseConnection.php';
+
+
 $pageTitle = 'Home';
 
 $siteName = 'Used Cars'; 
 
-ob_start();
 
-include __DIR__ .'/../templates/home.html.php';
+$config = new DatabaseConfig();
 
-$output = ob_get_clean();
+
+$pdo = new DatabaseConnection($config);
 
 include __DIR__ . '/../templates/layout.html.php';

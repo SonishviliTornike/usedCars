@@ -19,7 +19,7 @@
     </main>
 
     <footer>
-        <p>&copy Tornike's used cars web page copyright <?= date('Y'); ?> &amp; Author Tornike Sonishvili &amp; Email: sonishvili.tornike@gmail.com</p>
+        <p>&copy Tornike's used cars web page copyright <?= date('Y'); ?> &amp; Author:Tornike Sonishvili &amp; Email:sonishvili.tornike@gmail.com</p>
     </footer>
 
 </body>
